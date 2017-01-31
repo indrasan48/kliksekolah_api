@@ -10,11 +10,11 @@ class chat extends controller {
         
     }
 
-    function list() {
+    function listdata() {
     	glfn::_xml_http_request();
         $req['id'] = isset($_POST['id']) && $_POST['id'] !== "" ? $_POST['id'] : '';
         $req['userid'] = isset($_POST['userid']) && $_POST['userid'] !== "" ? $_POST['userid'] : '';
-        $result = $this->model->list($req);
+        $result = $this->model->listdata($req);
         echo json_encode($result);
     }
 
