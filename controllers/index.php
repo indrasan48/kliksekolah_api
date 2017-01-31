@@ -7,7 +7,9 @@ class index extends controller {
     }
 
     function index() {
-        $this->view->render('index/index');
+		print_r( $_POST );
+		echo $_POST['method'];
+        //$this->view->render('index/index');
     }
 
 }
