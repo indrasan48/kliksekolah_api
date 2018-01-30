@@ -50,6 +50,7 @@ class chat_model extends model {
         ";
         $condition = array(
             'userid' => $req['userid'],
+            'teacherid' => $req['teacherid'],
         );
         $result = $this->db->_select($query,$condition);
 

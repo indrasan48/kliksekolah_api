@@ -227,7 +227,7 @@ class database {
 
     function _return_error($errmsg,$data) {
 
-    	$data = str_replace("\n", "", $data);
+    	//$data = str_replace("\n", "", $data);
     	$data = str_replace("\t", "", $data);
     	$data = str_replace("        ", "", $data);
 
