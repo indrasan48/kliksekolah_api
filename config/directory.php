@@ -8,12 +8,12 @@
 $serverip = $_SERVER['SERVER_ADDR'] == "::1" ? 'localhost' : $_SERVER['SERVER_ADDR'];
 
 
-define('DOMAIN', 'localhost');
-define('API', 'api');
+define('DOMAIN', '127.0.0.1');
+define('API', 'kliksekolah_api');
 
-define('URLKEY', 'https://' . DOMAIN . '');
+define('URLKEY', 'http://' . DOMAIN . '');
 
-define('URL', 'https://' . DOMAIN . '/' . API . '/');
+define('URL', 'http://' . DOMAIN . '/' . API . '/');
 
 define('LIBS', 'libs/');
 define('CONTROLLERS', 'controllers/');
