@@ -1,0 +1,21 @@
+php_flag display_error on
+php_value error_reporting 9999
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /api/
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+Options +FollowSymLinks
+ErrorDocument 500 https://google.com
+ErrorDocument 404 https://google.com
+ErrorDocument 401 https://google.com
+ErrorDocument 403 "ERROR 403"
+</IfModule>

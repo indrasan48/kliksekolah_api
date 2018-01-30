@@ -1,0 +1,355 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"chec",
+				"check_row"
+			],
+			[
+				"data_del",
+				"data_delivery"
+			],
+			[
+				"data",
+				"data_delivery_row"
+			],
+			[
+				"_cou",
+				"_courier_package"
+			],
+			[
+				"_courie",
+				"_courier"
+			],
+			[
+				"_cour",
+				"_courier"
+			],
+			[
+				"pri",
+				"_price_per_weight"
+			],
+			[
+				"_w",
+				"_weight"
+			],
+			[
+				"_co",
+				"_courier_package"
+			],
+			[
+				"deli",
+				"delivery_value"
+			],
+			[
+				"_code",
+				"_code_detail_transaction"
+			],
+			[
+				"tota",
+				"_total_item_weight"
+			],
+			[
+				"total",
+				"total_courier_price"
+			],
+			[
+				"we",
+				"_weight_in_kg"
+			],
+			[
+				"_couri",
+				"_courier_package"
+			],
+			[
+				"tr_",
+				"tr_transaction_delivery"
+			],
+			[
+				"datac",
+				"data_courier_price"
+			],
+			[
+				"data_cour",
+				"data_courier_price"
+			],
+			[
+				"quer",
+				"query_courier_price"
+			],
+			[
+				"tr_tr",
+				"tr_transaction_delivery"
+			],
+			[
+				"_coe",
+				"_code_detail_transaction"
+			],
+			[
+				"con",
+				"condition"
+			],
+			[
+				"co",
+				"_courier_price"
+			],
+			[
+				"_pri",
+				"_price_per_weight"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"item",
+				"items_array"
+			],
+			[
+				"it",
+				"items_array"
+			],
+			[
+				"insert",
+				"insert_table"
+			],
+			[
+				"che",
+				"check_condition"
+			],
+			[
+				"ch",
+				"check_detail"
+			],
+			[
+				"_pr",
+				"_product"
+			],
+			[
+				"data_p",
+				"data_prod"
+			],
+			[
+				"update",
+				"update_condition"
+			],
+			[
+				"upda",
+				"update_table"
+			],
+			[
+				"t_",
+				"tr_transaction_delivery"
+			],
+			[
+				"tr_transaction_dl",
+				"tr_transaction_delivery_detail"
+			],
+			[
+				"check",
+				"check_delivery"
+			],
+			[
+				"_",
+				"_courier_package"
+			],
+			[
+				"couri",
+				"_courier_price"
+			],
+			[
+				"_courier",
+				"_courier_price"
+			],
+			[
+				"code",
+				"_code_detail_transaction"
+			],
+			[
+				"array",
+				"array_pop"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/models/cart_model.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/controllers/cart.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/models/delivery_model.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/controllers/delivery.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/models/product_model.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/controllers/product.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/controllers/courier.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/models/courier_model.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/controllers/payment.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/models/payment_model.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/libs/glfn.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/models/history_model.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/controllers/history.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/libs/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/klikpadapi/index.php"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
