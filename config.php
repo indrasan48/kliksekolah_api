@@ -6,3 +6,4 @@ require './config/database.php';
 require './config/encyption.php';
 require './config/timezone.php';
 
+//tambah ini dulu bentar.
