@@ -12,9 +12,15 @@ class chat_model extends model {
         $return['id'] = $req['id'];
 
         $query = "
-        SELECT * FROM EON_chat ec
-		WHERE ec.idstudent = :userid 
-		ORDER BY ec.idteacher
+		SELECT 
+		(SELECT guru_nama FROM SISWA_Guru WHERE guru_id = ec.idteacher) AS teacher_name,
+		(SELECT eon_name FROM EON_User WHERE eon_id = ec.idstudent) AS student_name,
+		(SELECT ecd.pesan FROM EON_chat_detail ecd WHERE ecd.kdchat = ec.kdchat ORDER BY ecd.tanggal_sent DESC LIMIT 1) AS last_message,
+		(SELECT ecd.tanggal_sent FROM EON_chat_detail ecd WHERE ecd.kdchat = ec.kdchat ORDER BY ecd.tanggal_sent DESC LIMIT 1) AS sent,
+		ec.kdchat AS chat_identifier
+		FROM EON_chat ec
+		WHERE ec.idstudent = :userid
+		ORDER BY sent DESC
         ";
         $condition = array(
             'userid' => $req['userid'],
