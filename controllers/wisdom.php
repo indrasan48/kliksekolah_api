@@ -6,7 +6,7 @@ class wisdom extends controller {
         parent::__construct();
     }
 
-     function index() {
+    function index() {
         
     }
 
