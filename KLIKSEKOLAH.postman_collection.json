@@ -1,0 +1,735 @@
+{
+	"owner": "2626497",
+	"lastUpdatedBy": "2626497",
+	"lastRevision": 3090531741,
+	"team": null,
+	"id": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+	"name": "KLIKSEKOLAH",
+	"description": "",
+	"variables": null,
+	"auth": null,
+	"events": null,
+	"folders_order": [],
+	"order": [
+		"72b96e33-278c-77ba-f648-518bbe886fe7",
+		"eb43b8ee-f9ba-2921-34ab-12c1de31b80f",
+		"c497c33e-e5c2-ea0c-8941-d009df672019",
+		"a2a3548f-bf6e-20ac-5ec3-308b69797804",
+		"bcc69072-e16b-3b00-8427-010695aaf344",
+		"f198aede-2889-1197-5804-d27b9a37ac99",
+		"8e5aa715-4c48-f503-082d-cd464d80afb8",
+		"0a8c555d-198d-3131-7182-9fc7a1ecad0d",
+		"6a3a8e2d-3653-ec89-7c60-00a592da9acb",
+		"94dd1d18-4259-a800-e5db-6becfb316ea1",
+		"189fd580-5d69-0da6-14c6-a582971527b0",
+		"86603460-9579-ec01-39bd-10aaa377e51a",
+		"fadc1fd3-4b48-808b-2b61-2bc99cc449bb",
+		"2361ab3c-448c-c9a3-aba7-ba394439bd77"
+	],
+	"folders": [],
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "0a8c555d-198d-3131-7182-9fc7a1ecad0d",
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1/kliksekolah_api/study/listdata",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lecturer",
+					"value": "Pak Fajar",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "origin",
+					"value": "SMAPELITAILMU",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517382230756,
+			"name": "STUDY : LIST",
+			"description": null,
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "189fd580-5d69-0da6-14c6-a582971527b0",
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1/kliksekolah_api/merit/listdata",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userid",
+					"value": "88888888",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "origin",
+					"value": "SMAPELITAILMU",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517382222355,
+			"name": "MERIT : LIST",
+			"description": null,
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"folder": null,
+			"id": "2361ab3c-448c-c9a3-aba7-ba394439bd77",
+			"name": "CHAT : DETAIL",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userid",
+					"value": "88888888",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://127.0.0.1/kliksekolah_api/chat/detail",
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "6a3a8e2d-3653-ec89-7c60-00a592da9acb",
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1/kliksekolah_api/teacher/listdata",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "origin",
+					"value": "SMAPELITAILMU",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "filter",
+					"value": "All",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517382227555,
+			"name": "TEACHER : LIST",
+			"description": null,
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"folder": null,
+			"id": "72b96e33-278c-77ba-f648-518bbe886fe7",
+			"name": "AUTH : LOGIN",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userid",
+					"value": "naikorasu",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "263bb204c60e1b6b5ae6fc53c21db57e",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "origin",
+					"value": "SPININTERNATIONAL",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://127.0.0.1/kliksekolah_api/auth/login",
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "86603460-9579-ec01-39bd-10aaa377e51a",
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1/kliksekolah_api/demerit/listdata",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userid",
+					"value": "88888888",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "origin",
+					"value": "SMAPELITAILMU",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517382218307,
+			"name": "DEMERIT : LIST",
+			"description": null,
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "8e5aa715-4c48-f503-082d-cd464d80afb8",
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1/kliksekolah_api/score/listdata",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userid",
+					"value": "88888888",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "origin",
+					"value": "SMAPELITAILMU",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "month",
+					"value": "January",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517382234010,
+			"name": "SCORE : LIST",
+			"description": null,
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "94dd1d18-4259-a800-e5db-6becfb316ea1",
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1/kliksekolah_api/invoice/listdata",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userid",
+					"value": "88888888",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "origin",
+					"value": "SMAPELITAILMU",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "month",
+					"value": "January",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517382225003,
+			"name": "INVOICE : LIST",
+			"description": null,
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "a2a3548f-bf6e-20ac-5ec3-308b69797804",
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1/kliksekolah_api/attendance/listdata",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userid",
+					"value": "7777",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "origin",
+					"value": "SMAPELITAILMU",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "month",
+					"value": "All",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517368835777,
+			"name": "ATTENDANCE : LIST",
+			"description": null,
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "bcc69072-e16b-3b00-8427-010695aaf344",
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1/kliksekolah_api/schedule/listdata",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "origin",
+					"value": "SMAPELITAILMU",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "month",
+					"value": "May",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517382239468,
+			"name": "SCHEDULE : LIST",
+			"description": null,
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"folder": null,
+			"id": "c497c33e-e5c2-ea0c-8941-d009df672019",
+			"name": "WISDOM : LIKE",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "origin",
+					"value": "SMAKANISIUS",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "code",
+					"value": "008",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "time",
+					"value": "2013-11-11 14:11:12",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://127.0.0.1/kliksekolah_api/wisdom/like",
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "eb43b8ee-f9ba-2921-34ab-12c1de31b80f",
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1/kliksekolah_api/wisdom/listdata",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "origin",
+					"value": "SMAKANISIUS",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517382244754,
+			"name": "WISDOM : LIST",
+			"description": null,
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "f198aede-2889-1197-5804-d27b9a37ac99",
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1/kliksekolah_api/reminder/listdata",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userid",
+					"value": "88888888",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "origin",
+					"value": "SMAPELITAILMU",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "month",
+					"value": "All",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517382237021,
+			"name": "REMINDER : LIST",
+			"description": null,
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		},
+		{
+			"id": "fadc1fd3-4b48-808b-2b61-2bc99cc449bb",
+			"headers": "X-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1/kliksekolah_api/chat/listdata",
+			"folder": null,
+			"queryParams": [],
+			"events": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "id",
+					"value": "IDENTIFIER",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userid",
+					"value": "88888888",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "teacherid",
+					"value": "G003",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"auth": null,
+			"time": 1517382212285,
+			"name": "CHAT : LIST",
+			"description": null,
+			"collectionId": "933ed1ee-2acc-c70b-7416-44adeb4fe8f8",
+			"responses": [],
+			"currentHelper": null,
+			"helperAttributes": null
+		}
+	]
+}
