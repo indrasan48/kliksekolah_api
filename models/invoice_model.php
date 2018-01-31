@@ -6,7 +6,7 @@ class invoice_model extends model {
         parent::__construct();
     }
 
-    public function list($req = array()) {
+    public function listdata($req = array()) {
 
     	$return = array();
         $return['id'] = $req['id'];

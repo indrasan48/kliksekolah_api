@@ -10,12 +10,12 @@ class schedule extends controller {
         
     }
 
-    function list() {
+    function listdata() {
     	glfn::_xml_http_request();
         $req['id'] = isset($_POST['id']) && $_POST['id'] !== "" ? $_POST['id'] : '';
         $req['origin'] = isset($_POST['origin']) && $_POST['origin'] !== "" ? $_POST['origin'] : '';
         $req['month'] = isset($_POST['month']) && $_POST['month'] !== "" ? $_POST['month'] : '';
-        $result = $this->model->list($req);
+        $result = $this->model->listdata($req);
         echo json_encode($result);
     }
 }
