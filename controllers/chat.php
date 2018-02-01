@@ -22,7 +22,7 @@ class chat extends controller {
     	glfn::_xml_http_request();
         $req['id'] = isset($_POST['id']) && $_POST['id'] !== "" ? $_POST['id'] : '';
         $req['userid'] = isset($_POST['userid']) && $_POST['userid'] !== "" ? $_POST['userid'] : '';
-        $req['teacherid'] = isset($_POST['teacherid']) && $_POST['teacherid'] !== "" ? $_POST['teacherid'] : '';
+        $req['chatid'] = isset($_POST['chatid']) && $_POST['chatid'] !== "" ? $_POST['chatid'] : '';
         $result = $this->model->detail($req);
         echo json_encode($result);
     }

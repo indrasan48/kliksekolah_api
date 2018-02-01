@@ -52,11 +52,11 @@ class chat_model extends model {
 		SELECT * FROM EON_chat ec
 		JOIN EON_chat_detail ecd
 		ON ec.kdchat = ecd.kdchat
-		WHERE ec.idstudent = :userid AND ec.idteacher = :teacherid;
+		WHERE ec.idstudent = :userid AND ec.kdchat = :uid;
         ";
         $condition = array(
             'userid' => $req['userid'],
-            'teacherid' => $req['teacherid'],
+            'uid' => $req['chatid'],
         );
         $result = $this->db->_select($query,$condition);
 
